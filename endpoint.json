@@ -1,0 +1,47 @@
+{
+    "label": "Yahoo YQL",
+    "name": "yahoo-yql",
+    "apiVersion": "v1",
+    "internal": true,
+    "configurationType": "GLOBAL",
+    "deployment": {
+        "profiles":[
+            {
+                "name": "default",
+                "label": "Default",
+                "memory": 256,
+                "description": "Default configuration"
+            }
+        ],
+        "allowMultipleInstances": false
+    },
+    "icon48": "https://storage.googleapis.com/static.slingrs.io/platform/endpoints/yahoo-yql.png",
+    "status": "ACTIVE",
+    "stores": [],
+    "events": [],
+    "functions": [
+        {
+            "label": "Yahoo Finance Quotes",
+            "name": "financeQuotes",
+            "description": "Returns the quotes of stocks using the Yahoo! Finance service."
+        },
+        {
+            "label": "GET",
+            "name": "get",
+            "description": "Sends a GET request"
+        },
+        {
+            "label": "POST",
+            "name": "post",
+            "description": "Sends a POST request"
+        }
+    ],
+    "configuration":[
+        {
+            "name": "config",
+            "label": "Configuration",
+            "value": "No configuration required.",
+            "type": "info"
+        }
+    ]
+}
