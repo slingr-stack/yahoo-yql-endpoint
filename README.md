@@ -12,6 +12,3 @@ SLINGR is a low-code rapid application development platform that accelerates dev
 ## License
 
 This endpoint is licensed under the Apache License 2.0. See the `LICENSE` file for more details.
-
-
-Rodri, disculpá estoy ocupado, después te llamo
